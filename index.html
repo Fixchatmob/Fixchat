@@ -1,14 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fixchat</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fixchat</title>
 
-    <!-- SendPulse Web Push -->
-    <script charset="UTF-8" src="//web.webpushs.com/js/push/cb93dace18deda36b3157b6c05b97f0d_1.js" async></script>
+<!-- SendPulse Web Push -->
+<script charset="UTF-8" src="//web.webpushs.com/js/push/cb93dace18deda36b3157b6c05b97f0d_1.js" async></script>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+    }
+
+    /* HERO - fundo laranja ocupando a primeira tela */
+    .hero {
+        background-color: #FF7A00;
+        height: 100vh; /* Tela inteira */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero img {
+        max-width: 80%;
+        max-height: 320px;
+        height: auto;
+    }
+
+    /* Conteúdo da empresa */
+    #informacoes-empresa {
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: auto;
+        font-size: 16px;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    #informacoes-empresa h2 {
+        margin-top: 0;
+        color: #222;
+    }
+
+    #informacoes-empresa h3 {
+        margin-bottom: 8px;
+        margin-top: 25px;
+        color: #444;
+    }
+</style>
+
 </head>
+
 <body>
-    <h1>Bem-vindo ao Fixchat!</h1>
+
+    <!-- HERO COM LOGO -->
+    <div class="hero">
+        <img src="logo-fixchat.png" alt="Logo Fixchat">
+    </div>
+
+    <!-- Informações da empresa (requisito META) -->
+    <section id="informacoes-empresa">
+        <h2>Informações da Empresa</h2>
+
+        <p><strong>Nome Empresarial:</strong> 57.818.386 ALVARO COSTA COUTO BRIGAGAO</p>
+        <p><strong>CNPJ:</strong> 57.818.386/0001-60</p>
+        <p><strong>Nome Fantasia:</strong> Fixchat</p>
+
+        <h3>Endereço</h3>
+        <p><strong>Logradouro:</strong> RUA MAJOR FELICIANO</p>
+        <p><strong>Número:</strong> 915</p>
+        <p><strong>Bairro:</strong> CENTRO</p>
+        <p><strong>Município:</strong> MACHADO</p>
+        <p><strong>Estado:</strong> MG</p>
+        <p><strong>CEP:</strong> 37750000</p>
+
+        <h3>Contato</h3>
+        <p><strong>Telefone:</strong> (11) 5580-1158</p>
+        <p><strong>Email:</strong> alvaro@fixchat.com.br</p>
+    </section>
+
 </body>
 </html>
